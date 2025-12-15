@@ -1,0 +1,7 @@
+StackLightDriver-backups/
+*.bak
+*.lck
+fp-info-cache
+fp-lib-table
+sym-lib-table
+jlcpcb/*.db
