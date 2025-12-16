@@ -5,3 +5,4 @@ fp-info-cache
 fp-lib-table
 sym-lib-table
 jlcpcb/*.db
+*auto_saved_files*
