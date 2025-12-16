@@ -112,167 +112,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Custom_symbols:LTV-5314-TP1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 17.526 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LTV-5314-TP1"
-				(at 0.254 14.732 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590235304746647552"
-				(at 0.254 -14.732 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "-40℃~+110℃ 1 1.5A 10V~30V 150ns 150ns 35kV/us 5kV MOSFET SMD-5P Gate Drive Optocoupler ROHS"
-				(at 0.254 -17.018 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" " C2944034"
-				(at 0.508 -19.558 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LTV-5314-TP1_1_1"
-				(rectangle
-					(start -10.16 11.43)
-					(end 10.16 -11.43)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "ANODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "CATHODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 7.62 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "VEE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -7.62 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_JLCPCB-Capacitors:0603,1uF"
 			(pin_numbers
 				(hide yes)
@@ -1525,6 +1364,167 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Project_symbols:LTV-5314-TP1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 17.526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LTV-5314-TP1"
+				(at 0.254 14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590235304746647552"
+				(at 0.254 -14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-40℃~+110℃ 1 1.5A 10V~30V 150ns 150ns 35kV/us 5kV MOSFET SMD-5P Gate Drive Optocoupler ROHS"
+				(at 0.254 -17.018 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" " C2944034"
+				(at 0.508 -19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LTV-5314-TP1_1_1"
+				(rectangle
+					(start -10.16 11.43)
+					(end 10.16 -11.43)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "ANODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "CATHODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "VEE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3775,92 +3775,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom_symbols:LTV-5314-TP1")
-		(at 128.27 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2226964f-9f3d-4c20-aca4-36feb1db02cc")
-		(property "Reference" "U5"
-			(at 128.27 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-5314-TP1"
-			(at 128.27 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590235304746647552"
-			(at 128.27 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-40℃~+110℃ 1 1.5A 10V~30V 150ns 150ns 35kV/us 5kV MOSFET SMD-5P Gate Drive Optocoupler ROHS"
-			(at 128.27 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C2944034"
-			(at 128.524 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "f48a194c-a9ab-4593-9a5a-c554ef653b53")
-		)
-		(pin "3"
-			(uuid "5d30b8a1-5bbc-4770-8374-bf202442845e")
-		)
-		(pin "1"
-			(uuid "bee6fd9e-2b89-4211-9b25-14270d883537")
-		)
-		(pin "2"
-			(uuid "fe05b2ad-b1d3-4035-a7b7-34f79d0a9e97")
-		)
-		(pin "4"
-			(uuid "8b58ec0c-e692-4f47-b7f2-b94d9e57cf92")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a/04171024-81d9-4c97-bfc7-6efdc904393c"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,1uF")
 		(at 143.51 137.16 0)
 		(unit 1)
@@ -4051,92 +3965,6 @@
 			(project "StackLightDriver"
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a/04171024-81d9-4c97-bfc7-6efdc904393c"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom_symbols:LTV-5314-TP1")
-		(at 128.27 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f7b3a7b-ce36-436a-b45d-f313c797d9b6")
-		(property "Reference" "U2"
-			(at 128.27 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-5314-TP1"
-			(at 128.27 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590235304746647552"
-			(at 128.27 70.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-40℃~+110℃ 1 1.5A 10V~30V 150ns 150ns 35kV/us 5kV MOSFET SMD-5P Gate Drive Optocoupler ROHS"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C2944034"
-			(at 128.524 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "34051b76-b23d-435e-91d3-ed09d8eb2e17")
-		)
-		(pin "3"
-			(uuid "73d31fac-bb15-4138-bfd0-933fab0561b7")
-		)
-		(pin "1"
-			(uuid "5c49368c-222e-4a27-826c-4f98835ca3ea")
-		)
-		(pin "2"
-			(uuid "2d29383f-4afb-4920-9c88-3631fa3cb0e8")
-		)
-		(pin "4"
-			(uuid "e5b645c1-dbdf-4dff-9dca-05e04be823e3")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a/04171024-81d9-4c97-bfc7-6efdc904393c"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4818,6 +4646,92 @@
 			(project ""
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a/04171024-81d9-4c97-bfc7-6efdc904393c"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project_symbols:LTV-5314-TP1")
+		(at 128.27 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66c58400-0973-43b6-8e92-7ebfce4578dd")
+		(property "Reference" "U1"
+			(at 128.27 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-5314-TP1"
+			(at 128.27 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590235304746647552"
+			(at 128.524 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-40℃~+110℃ 1 1.5A 10V~30V 150ns 150ns 35kV/us 5kV MOSFET SMD-5P Gate Drive Optocoupler ROHS"
+			(at 128.524 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C2944034"
+			(at 128.778 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97d1ae6e-b339-4006-b76c-3c06227017e0")
+		)
+		(pin "1"
+			(uuid "0f438792-a620-4767-8d15-88b8ceeff30a")
+		)
+		(pin "4"
+			(uuid "4d6cc29b-e26f-488b-8e81-7de4c8085a18")
+		)
+		(pin "3"
+			(uuid "3a92c3b0-f22c-4968-ac51-06d7b840b75b")
+		)
+		(pin "5"
+			(uuid "4fc6dc12-90af-400f-9dcb-bc70017a6bee")
+		)
+		(instances
+			(project ""
+				(path "/d031313b-f769-488e-86bb-cea64c97ce3a/04171024-81d9-4c97-bfc7-6efdc904393c"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6872,92 +6786,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom_symbols:LTV-5314-TP1")
-		(at 128.27 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acb90890-3585-4f95-bd98-8e0ecbdd5ee4")
-		(property "Reference" "U1"
-			(at 128.27 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-5314-TP1"
-			(at 128.27 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590235304746647552"
-			(at 128.27 43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-40℃~+110℃ 1 1.5A 10V~30V 150ns 150ns 35kV/us 5kV MOSFET SMD-5P Gate Drive Optocoupler ROHS"
-			(at 128.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C2944034"
-			(at 128.524 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "ff5bf165-71a8-4065-bd0e-714953e1eabe")
-		)
-		(pin "3"
-			(uuid "32bf08ab-8c30-4f12-95dd-e3cb5078dc73")
-		)
-		(pin "1"
-			(uuid "a3513ea3-7178-4c0c-8561-025579913a30")
-		)
-		(pin "2"
-			(uuid "6168a84d-0e26-4f8a-affb-2e7fc681bda4")
-		)
-		(pin "4"
-			(uuid "c05fa97b-5d27-4324-9a09-544bf0cd9e04")
-		)
-		(instances
-			(project ""
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a/04171024-81d9-4c97-bfc7-6efdc904393c"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 161.29 22.86 0)
 		(unit 1)
@@ -7499,17 +7327,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom_symbols:LTV-5314-TP1")
-		(at 128.27 87.63 0)
+		(lib_id "Project_symbols:LTV-5314-TP1")
+		(at 128.27 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c81caf6b-2457-46d9-8b7e-87ec1628201f")
-		(property "Reference" "U3"
-			(at 128.27 76.2 0)
+		(uuid "bebeb09f-4d55-4be4-b9a3-1fc41f63b3b7")
+		(property "Reference" "U5"
+			(at 128.27 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7517,7 +7345,93 @@
 			)
 		)
 		(property "Value" "LTV-5314-TP1"
-			(at 128.27 78.74 0)
+			(at 128.27 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590235304746647552"
+			(at 128.524 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-40℃~+110℃ 1 1.5A 10V~30V 150ns 150ns 35kV/us 5kV MOSFET SMD-5P Gate Drive Optocoupler ROHS"
+			(at 128.524 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C2944034"
+			(at 128.778 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bacc3866-7cc6-40cf-9471-9490cbd15416")
+		)
+		(pin "1"
+			(uuid "f764cdad-56ac-4b54-a853-a29e376bd8e2")
+		)
+		(pin "4"
+			(uuid "141ae6e7-1d12-4d4d-a663-5c98f0421ac9")
+		)
+		(pin "3"
+			(uuid "0d9df1bf-27dc-40e9-a303-33e9c817d2f1")
+		)
+		(pin "5"
+			(uuid "b1385945-6477-4598-9ad8-12e9e16fa7ac")
+		)
+		(instances
+			(project "StackLightDriver"
+				(path "/d031313b-f769-488e-86bb-cea64c97ce3a/04171024-81d9-4c97-bfc7-6efdc904393c"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project_symbols:LTV-5314-TP1")
+		(at 128.27 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9add710-9394-43cc-b057-f47d6db3c914")
+		(property "Reference" "U3"
+			(at 128.27 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-5314-TP1"
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7534,7 +7448,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590235304746647552"
-			(at 128.27 96.774 0)
+			(at 128.524 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7543,7 +7457,7 @@
 			)
 		)
 		(property "Description" "-40℃~+110℃ 1 1.5A 10V~30V 150ns 150ns 35kV/us 5kV MOSFET SMD-5P Gate Drive Optocoupler ROHS"
-			(at 128.27 99.06 0)
+			(at 128.524 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7552,7 +7466,7 @@
 			)
 		)
 		(property "LCSC" " C2944034"
-			(at 128.524 101.6 0)
+			(at 128.778 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7560,25 +7474,111 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "28157891-167e-4414-8f86-f5dd5f606377")
-		)
-		(pin "3"
-			(uuid "427c9821-f8a1-42d9-b532-d43488b8787c")
+		(pin "2"
+			(uuid "3ad17103-cb40-4b90-8e12-ebebc2b8171a")
 		)
 		(pin "1"
-			(uuid "2ed6ccab-5904-4e56-869b-43452c66f752")
-		)
-		(pin "2"
-			(uuid "0451454f-ea8d-43c2-8d1f-a8b1a7ce7088")
+			(uuid "de95b600-2299-4a69-979c-5f81ed4cf562")
 		)
 		(pin "4"
-			(uuid "c7a44e9e-3bf2-459d-8f1b-b0deebc577fa")
+			(uuid "d991bb90-5ec9-411e-93e5-8c0ced3e59f8")
+		)
+		(pin "3"
+			(uuid "68cb5ad8-3148-4d22-8ba1-0830d9a135b0")
+		)
+		(pin "5"
+			(uuid "e882eccc-559f-4874-abbc-7e46e3265986")
 		)
 		(instances
 			(project "StackLightDriver"
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a/04171024-81d9-4c97-bfc7-6efdc904393c"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project_symbols:LTV-5314-TP1")
+		(at 128.27 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d26525eb-356c-47aa-96e8-ba9b75482554")
+		(property "Reference" "U2"
+			(at 128.27 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-5314-TP1"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590235304746647552"
+			(at 128.524 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-40℃~+110℃ 1 1.5A 10V~30V 150ns 150ns 35kV/us 5kV MOSFET SMD-5P Gate Drive Optocoupler ROHS"
+			(at 128.524 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C2944034"
+			(at 128.778 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "412727ba-a054-4f09-880c-28ff0d1bb402")
+		)
+		(pin "1"
+			(uuid "da854d25-a7a3-40b3-936d-da82357502d5")
+		)
+		(pin "4"
+			(uuid "04d4d3ef-3b8a-44f3-8a70-a86589ace0e2")
+		)
+		(pin "3"
+			(uuid "a1672aa3-3169-4ddb-9a03-b4af24564bb5")
+		)
+		(pin "5"
+			(uuid "845efda1-0018-451b-816e-8a5d48d779e7")
+		)
+		(instances
+			(project "StackLightDriver"
+				(path "/d031313b-f769-488e-86bb-cea64c97ce3a/04171024-81d9-4c97-bfc7-6efdc904393c"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7935,92 +7935,6 @@
 			(project "StackLightDriver"
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a/04171024-81d9-4c97-bfc7-6efdc904393c"
 					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom_symbols:LTV-5314-TP1")
-		(at 128.27 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2201ade-9458-406b-801a-8f1fb0a943b9")
-		(property "Reference" "U4"
-			(at 128.27 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-5314-TP1"
-			(at 128.27 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590235304746647552"
-			(at 128.27 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-40℃~+110℃ 1 1.5A 10V~30V 150ns 150ns 35kV/us 5kV MOSFET SMD-5P Gate Drive Optocoupler ROHS"
-			(at 128.27 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C2944034"
-			(at 128.524 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "041e2792-3e15-41ee-badd-1dc5b143cf21")
-		)
-		(pin "3"
-			(uuid "cf9f606a-6a30-41d0-a083-afb4f0b7c09d")
-		)
-		(pin "1"
-			(uuid "b6f25bca-850a-4e33-9e49-5ddaa3d42c87")
-		)
-		(pin "2"
-			(uuid "77c66104-e61b-4b33-bde1-b02271137452")
-		)
-		(pin "4"
-			(uuid "ed107198-da40-4870-9da1-39fbdab452cc")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a/04171024-81d9-4c97-bfc7-6efdc904393c"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -8737,6 +8651,92 @@
 			(project "StackLightDriver"
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a/04171024-81d9-4c97-bfc7-6efdc904393c"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project_symbols:LTV-5314-TP1")
+		(at 128.27 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4d2aa1b-d7bb-4db4-8d18-6838b6fddbf2")
+		(property "Reference" "U4"
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-5314-TP1"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590235304746647552"
+			(at 128.524 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-40℃~+110℃ 1 1.5A 10V~30V 150ns 150ns 35kV/us 5kV MOSFET SMD-5P Gate Drive Optocoupler ROHS"
+			(at 128.524 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C2944034"
+			(at 128.778 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a756bb8b-2e88-418f-a848-fb376778ad94")
+		)
+		(pin "1"
+			(uuid "67a7c064-bb83-4759-9d92-c79eea54aa3a")
+		)
+		(pin "4"
+			(uuid "e2ae0e08-aaf2-4b88-99dc-dd2105cc53a1")
+		)
+		(pin "3"
+			(uuid "2727038b-a5e5-4288-a153-6c4aadc5c99b")
+		)
+		(pin "5"
+			(uuid "f4245482-463c-4933-b4f5-94332e6a58ac")
+		)
+		(instances
+			(project "StackLightDriver"
+				(path "/d031313b-f769-488e-86bb-cea64c97ce3a/04171024-81d9-4c97-bfc7-6efdc904393c"
+					(reference "U4")
 					(unit 1)
 				)
 			)
