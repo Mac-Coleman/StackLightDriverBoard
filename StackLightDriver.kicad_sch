@@ -1248,289 +1248,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Diodes:TVS-Uni,SMDJ15CA"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 2.032 0.834 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SMDJ15CA"
-				(at 2.032 -1.2122 0)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_JLCPCB:D_SMC"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2501071555_hongjiacheng-SMDJ15CA_C42371725.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "15V 24.4V 18.5V 123A 2uA 3kW -55°C~+150°C SMC ESD and Surge Protection (TVS/ESD)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C42371725"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Stock" "2434"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Price" "0.188USD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Process" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Minimum Qty" "2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Attrition Qty" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Class" "Preferred Component"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "hongjiacheng"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part" "SMDJ15CA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Operating Temperature" "-55°C~+150°C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Peak Pulse Power Dissipation (Ppp)" "3kW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Clamping Voltage" "24.4V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Peak Pulse Current (Ipp)" "123A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Voltage - Breakdown" "18.5V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Reverse Stand-Off Voltage (Vrwm)" "15V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Reverse Leakage Current (Ir)" "2uA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TVS-Uni,SMDJ15CA_0_1"
-				(polyline
-					(pts
-						(xy -1.905 -1.905) (xy -1.27 -1.27) (xy 1.27 -1.27) (xy 1.905 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TVS-Uni,SMDJ15CA_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_JLCPCB-Manufacturing:Part Number, PCM_JLCPCB, 0.8x0.15mm"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6274,12 +5991,6 @@
 		(uuid "f80d9541-0c96-4fe8-b9ad-bbcd42474f9a")
 	)
 	(junction
-		(at 38.1 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02689b87-de11-4f86-8f9b-9e85f4574a91")
-	)
-	(junction
 		(at 33.02 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6322,12 +6033,6 @@
 		(uuid "2044b166-6386-4966-b371-30996edf8d3b")
 	)
 	(junction
-		(at 260.35 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2406148e-bbbc-458a-a2f0-4e3c894adad5")
-	)
-	(junction
 		(at 50.8 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6340,28 +6045,10 @@
 		(uuid "31fb2710-3da7-4fe4-a02c-cbc66f05edce")
 	)
 	(junction
-		(at 38.1 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33a91467-2e2b-4fe7-a6b6-6089a9f5878e")
-	)
-	(junction
 		(at 182.88 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "361d122c-ce24-4395-908e-5b6b02b1c5f9")
-	)
-	(junction
-		(at 260.35 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39cdf2b3-a1e6-4ed4-b48a-b538e3c1a419")
-	)
-	(junction
-		(at 38.1 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a56dfc0-c0c0-41d5-9934-e99b3b385f60")
 	)
 	(junction
 		(at 44.45 158.75)
@@ -6412,12 +6099,6 @@
 		(uuid "6bc74c60-6e8b-49a2-b183-cb3fb10f6d5e")
 	)
 	(junction
-		(at 38.1 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71a2188b-e17f-4dbe-8387-d652dbbfb3f0")
-	)
-	(junction
 		(at 78.74 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6428,12 +6109,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dbb1bd7-821f-4245-a079-ac0813b54f18")
-	)
-	(junction
-		(at 260.35 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81b2636a-608e-41c0-8b64-9887fd0e3726")
 	)
 	(junction
 		(at 33.02 52.07)
@@ -6460,28 +6135,10 @@
 		(uuid "8cb75e95-a7a9-472a-ad0c-712db73bf3e0")
 	)
 	(junction
-		(at 38.1 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e39290e-0cf5-4447-a28f-db9432e00531")
-	)
-	(junction
 		(at 50.8 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90ad825a-8232-48d1-a521-2384c6c49c25")
-	)
-	(junction
-		(at 260.35 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b4a417c-44b0-47cf-82b3-01829b221908")
-	)
-	(junction
-		(at 260.35 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad4b8978-b69d-4a94-80d8-a0305bff8064")
 	)
 	(junction
 		(at 78.74 158.75)
@@ -6512,12 +6169,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc797e03-b30f-410f-a41e-62fc9bb7ae94")
-	)
-	(junction
-		(at 58.42 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4a6dbaa-536e-44e1-87e6-9fa0b9d593e8")
 	)
 	(junction
 		(at 266.7 96.52)
@@ -6556,16 +6207,154 @@
 		(uuid "fd3a57dc-f3da-4fbc-a81a-3aea75ac5f38")
 	)
 	(no_connect
+		(at 194.31 73.66)
+		(uuid "01884601-d6a6-4b96-a841-006ae83c03a4")
+	)
+	(no_connect
 		(at 105.41 91.44)
 		(uuid "0a7c64c6-938f-4906-a13b-7fa68eb1efca")
+	)
+	(no_connect
+		(at 151.13 63.5)
+		(uuid "118b37b9-2c7c-460a-8fd1-50da2826cfd1")
+	)
+	(no_connect
+		(at 151.13 76.2)
+		(uuid "12e8f34c-fb60-431e-be44-816b48d79c10")
+	)
+	(no_connect
+		(at 151.13 53.34)
+		(uuid "16448dd0-a7a9-44f4-a4d6-d1bbc4d0e0d0")
+	)
+	(no_connect
+		(at 151.13 50.8)
+		(uuid "181b8e75-7ab9-4f66-96d7-afc4ff5cc32d")
+	)
+	(no_connect
+		(at 194.31 78.74)
+		(uuid "26b2ecfb-a470-407a-8ab6-e2fce7f53448")
+	)
+	(no_connect
+		(at 151.13 86.36)
+		(uuid "3abad431-ed29-4c20-8911-9e9453b2682b")
+	)
+	(no_connect
+		(at 151.13 55.88)
+		(uuid "3edba3cb-8423-4221-aeb9-f2ea4fa2f1f8")
+	)
+	(no_connect
+		(at 151.13 71.12)
+		(uuid "3f224bf9-7b7f-4d5d-b83d-646b81c197c7")
+	)
+	(no_connect
+		(at 151.13 66.04)
+		(uuid "41fa4784-76d0-4897-85e7-852ebb8f5b7d")
+	)
+	(no_connect
+		(at 194.31 86.36)
+		(uuid "497aba36-1ab8-427b-a2c0-ac3e2cbdd406")
+	)
+	(no_connect
+		(at 194.31 71.12)
+		(uuid "4c885aec-44ad-4226-83bc-bca5f68da540")
+	)
+	(no_connect
+		(at 194.31 66.04)
+		(uuid "4cdd2080-01f5-4431-8976-3e0e02e36ccf")
+	)
+	(no_connect
+		(at 194.31 81.28)
+		(uuid "4f02e36c-0970-4648-a340-fa19cf85897b")
+	)
+	(no_connect
+		(at 194.31 83.82)
+		(uuid "5ebd921c-038c-4b27-9ebf-7605eda2a2f9")
+	)
+	(no_connect
+		(at 82.55 129.54)
+		(uuid "5ef32d3a-8629-471b-b01d-c1b83fbe17d7")
+	)
+	(no_connect
+		(at 194.31 76.2)
+		(uuid "60a5ae93-61d3-44f6-a027-e04d6ac36991")
+	)
+	(no_connect
+		(at 194.31 55.88)
+		(uuid "7bed4bac-80ec-407d-a628-cd61e102a963")
+	)
+	(no_connect
+		(at 151.13 83.82)
+		(uuid "8199800e-f996-41a7-9e00-900e5b80c40f")
 	)
 	(no_connect
 		(at 151.13 38.1)
 		(uuid "82f12539-fe99-493d-9b43-857bff659c89")
 	)
 	(no_connect
+		(at 151.13 68.58)
+		(uuid "866c2af6-a2aa-44eb-982b-daddb8776a7b")
+	)
+	(no_connect
+		(at 194.31 60.96)
+		(uuid "92cc54f7-8330-443e-a12f-92032ec70741")
+	)
+	(no_connect
+		(at 194.31 58.42)
+		(uuid "93ed6090-9521-4a34-b737-8602b0c7be82")
+	)
+	(no_connect
+		(at 151.13 73.66)
+		(uuid "9fc1b071-c8c0-4249-92fd-771269eb9c8b")
+	)
+	(no_connect
 		(at 151.13 40.64)
 		(uuid "a14dbd86-3cb6-47c0-9fa4-754b2934cf58")
+	)
+	(no_connect
+		(at 194.31 48.26)
+		(uuid "a7349547-eebe-4ddb-93ce-0fe1d91a209c")
+	)
+	(no_connect
+		(at 151.13 60.96)
+		(uuid "b403b2aa-b437-488e-9576-b1b3d168e851")
+	)
+	(no_connect
+		(at 194.31 45.72)
+		(uuid "bb4eedc0-c544-4e82-a8d0-40bbf5750351")
+	)
+	(no_connect
+		(at 151.13 48.26)
+		(uuid "bfc5ca4d-f28f-4fca-b994-6869c8aee57c")
+	)
+	(no_connect
+		(at 151.13 58.42)
+		(uuid "c137bc20-0e56-48d5-8a00-59e2f506615b")
+	)
+	(no_connect
+		(at 151.13 81.28)
+		(uuid "c6a75022-28d6-4d33-b813-63283f218985")
+	)
+	(no_connect
+		(at 151.13 78.74)
+		(uuid "ca1103a1-e729-4bd8-8b5d-017c6caa54d8")
+	)
+	(no_connect
+		(at 194.31 68.58)
+		(uuid "dc706845-6dce-46e8-9a28-795661fa3f22")
+	)
+	(no_connect
+		(at 194.31 63.5)
+		(uuid "f2d77a26-4c26-426f-b272-909b35f8b5f0")
+	)
+	(wire
+		(pts
+			(xy 105.41 120.65) (xy 107.95 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026ea579-bc06-4869-8220-7c811c0b3e5c")
 	)
 	(wire
 		(pts
@@ -6586,16 +6375,6 @@
 			(type default)
 		)
 		(uuid "0504019d-b0ba-4340-88d0-1e05158ce540")
-	)
-	(wire
-		(pts
-			(xy 29.21 54.61) (xy 38.1 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "050ca9e0-32b8-41bf-a76d-883b23591073")
 	)
 	(wire
 		(pts
@@ -6719,16 +6498,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 120.65) (xy 107.95 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1019ee45-a9ac-43de-86d2-b73407930a3f")
-	)
-	(wire
-		(pts
 			(xy 78.74 177.8) (xy 78.74 191.77)
 		)
 		(stroke
@@ -6739,7 +6508,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 115.57) (xy 50.8 115.57)
+			(xy 29.21 115.57) (xy 50.8 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6839,7 +6608,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 22.86) (xy 260.35 22.86)
+			(xy 256.54 22.86) (xy 269.24 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6879,16 +6648,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 54.61) (xy 38.1 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25bf5908-ed79-4c56-af31-11b3bb9ce4cf")
-	)
-	(wire
-		(pts
 			(xy 45.72 175.26) (xy 45.72 176.53)
 		)
 		(stroke
@@ -6909,33 +6668,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 40.64) (xy 269.24 40.64)
+			(xy 256.54 40.64) (xy 269.24 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2c6d5d6f-df8c-4c7c-b0d5-d1276d25410c")
-	)
-	(wire
-		(pts
-			(xy 105.41 120.65) (xy 107.95 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d11c4ab-b442-4223-98c1-e3589707f8ef")
-	)
-	(wire
-		(pts
-			(xy 38.1 34.29) (xy 38.1 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32b1d873-8162-4152-a62c-9a195d9dc816")
 	)
 	(wire
 		(pts
@@ -6949,6 +6688,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 120.65) (xy 107.95 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35cbc872-77a4-4c80-ba95-b184ab8b99d3")
+	)
+	(wire
+		(pts
 			(xy 73.66 177.8) (xy 78.74 177.8)
 		)
 		(stroke
@@ -6959,23 +6708,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 58.42) (xy 269.24 58.42)
+			(xy 256.54 58.42) (xy 269.24 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "36735eb3-58e8-44dd-88d3-6e78b2422b2f")
-	)
-	(wire
-		(pts
-			(xy 38.1 104.14) (xy 38.1 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38db71d7-e98e-499d-8181-759aef5f1476")
 	)
 	(wire
 		(pts
@@ -6999,17 +6738,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 83.82) (xy 38.1 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a79f4be-a91a-4d68-ae59-c5a7abe53e08")
-	)
-	(wire
-		(pts
-			(xy 52.07 158.75) (xy 58.42 158.75)
+			(xy 52.07 158.75) (xy 64.77 158.75)
 		)
 		(stroke
 			(width 0)
@@ -7059,16 +6788,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 76.2) (xy 269.24 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4890cf6d-e795-4a8e-a40e-3ea65565e574")
-	)
-	(wire
-		(pts
 			(xy 246.38 58.42) (xy 248.92 58.42)
 		)
 		(stroke
@@ -7109,27 +6828,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 115.57) (xy 38.1 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b1da056-15c4-4456-b4d1-3fd5ef1ccb78")
-	)
-	(wire
-		(pts
-			(xy 58.42 158.75) (xy 58.42 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b9d817c-e792-4437-b9e2-1227dd4db7c3")
-	)
-	(wire
-		(pts
-			(xy 29.21 74.93) (xy 38.1 74.93)
+			(xy 29.21 74.93) (xy 50.8 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7166,6 +6865,16 @@
 			(type default)
 		)
 		(uuid "4d24f794-9a8d-422a-be09-23c20c4b933d")
+	)
+	(wire
+		(pts
+			(xy 115.57 118.11) (xy 115.57 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de81945-fb45-4ce0-a39a-767f0ae58657")
 	)
 	(wire
 		(pts
@@ -7239,16 +6948,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 93.98) (xy 269.24 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5874a7ed-bd1d-463f-8c3d-00856760da9e")
-	)
-	(wire
-		(pts
 			(xy 44.45 158.75) (xy 49.53 158.75)
 		)
 		(stroke
@@ -7309,7 +7008,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 93.98) (xy 260.35 93.98)
+			(xy 256.54 93.98) (xy 269.24 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7326,16 +7025,6 @@
 			(type default)
 		)
 		(uuid "6138245d-3464-4860-abe5-a35c683f34d8")
-	)
-	(wire
-		(pts
-			(xy 260.35 102.87) (xy 260.35 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "621eb52d-a00d-4dfd-975e-b3a01eafd348")
 	)
 	(wire
 		(pts
@@ -7429,16 +7118,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 31.75) (xy 260.35 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7203abf5-9b55-42a0-8a90-6480b8016c46")
-	)
-	(wire
-		(pts
 			(xy 52.07 158.75) (xy 52.07 152.4)
 		)
 		(stroke
@@ -7456,16 +7135,6 @@
 			(type default)
 		)
 		(uuid "741e7d25-ded9-4d1b-8e36-75e397ba7aaa")
-	)
-	(wire
-		(pts
-			(xy 115.57 118.11) (xy 115.57 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78dfeedb-9ac2-4f3c-b4db-b453f0101c18")
 	)
 	(wire
 		(pts
@@ -7599,7 +7268,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 34.29) (xy 38.1 34.29)
+			(xy 29.21 34.29) (xy 50.8 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7616,16 +7285,6 @@
 			(type default)
 		)
 		(uuid "91c81177-0c54-484b-9699-2b8518fb68ff")
-	)
-	(wire
-		(pts
-			(xy 38.1 74.93) (xy 38.1 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "926a90a9-3297-47c6-bdae-33e73c4effdb")
 	)
 	(wire
 		(pts
@@ -7679,26 +7338,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 124.46) (xy 38.1 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a328a6b-68fd-4bd6-a5a8-e75f273acc3a")
-	)
-	(wire
-		(pts
-			(xy 105.41 118.11) (xy 115.57 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9aa30b54-3e20-4e51-85c9-2789bbd8c65a")
-	)
-	(wire
-		(pts
 			(xy 33.02 31.75) (xy 33.02 52.07)
 		)
 		(stroke
@@ -7706,16 +7345,6 @@
 			(type default)
 		)
 		(uuid "9c66f833-e9e3-432f-8175-0808eb164cc8")
-	)
-	(wire
-		(pts
-			(xy 58.42 171.45) (xy 58.42 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1056e24-ca81-4e6d-b1bc-a3f040ae0e07")
 	)
 	(wire
 		(pts
@@ -7736,16 +7365,6 @@
 			(type default)
 		)
 		(uuid "a38b0f8c-f177-43a4-8462-c92945e9736a")
-	)
-	(wire
-		(pts
-			(xy 38.1 63.5) (xy 38.1 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3ab2d92-dd68-4a87-b1c4-93fd992e64a5")
 	)
 	(wire
 		(pts
@@ -7809,46 +7428,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 43.18) (xy 38.1 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa3a7777-7b90-4b6e-86ca-c53e42bc609e")
-	)
-	(wire
-		(pts
-			(xy 260.35 76.2) (xy 260.35 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac3a440f-716c-44e9-ba5c-1b87878eb45c")
-	)
-	(wire
-		(pts
-			(xy 260.35 49.53) (xy 260.35 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aca913ea-99d3-4e99-af52-fcd2c9267579")
-	)
-	(wire
-		(pts
-			(xy 38.1 95.25) (xy 50.8 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adb1eca5-7273-4971-840b-48f862f8aeed")
-	)
-	(wire
-		(pts
 			(xy 222.25 152.4) (xy 227.33 152.4)
 		)
 		(stroke
@@ -7886,16 +7465,6 @@
 			(type default)
 		)
 		(uuid "b088229e-4312-41c6-b73b-41c0b151e1a6")
-	)
-	(wire
-		(pts
-			(xy 38.1 115.57) (xy 38.1 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1404462-7d21-493e-8f58-e3b26bc5eda0")
 	)
 	(wire
 		(pts
@@ -7949,27 +7518,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 40.64) (xy 260.35 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b94d5dc2-5d26-472e-b97d-8e86d3e0f30d")
-	)
-	(wire
-		(pts
-			(xy 260.35 22.86) (xy 269.24 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be211cea-a6a1-4e0e-910e-029f834392bb")
-	)
-	(wire
-		(pts
-			(xy 29.21 95.25) (xy 38.1 95.25)
+			(xy 29.21 95.25) (xy 50.8 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8019,23 +7568,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 54.61) (xy 50.8 54.61)
+			(xy 29.21 54.61) (xy 50.8 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ce23f038-4c09-4360-acfd-e16b0cadd64b")
-	)
-	(wire
-		(pts
-			(xy 260.35 22.86) (xy 260.35 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfc45232-956f-4bb6-a5f5-eddc7864c3f4")
 	)
 	(wire
 		(pts
@@ -8089,16 +7628,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 95.25) (xy 38.1 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5658631-6638-48ec-bf8f-7ed29e7dbd8c")
-	)
-	(wire
-		(pts
 			(xy 50.8 74.93) (xy 50.8 76.2)
 		)
 		(stroke
@@ -8149,33 +7678,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 93.98) (xy 260.35 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd21afae-d626-482f-bb46-21fefc2292c8")
-	)
-	(wire
-		(pts
-			(xy 256.54 76.2) (xy 260.35 76.2)
+			(xy 256.54 76.2) (xy 269.24 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "de21064f-678b-4507-a932-8f889c91dee9")
-	)
-	(wire
-		(pts
-			(xy 260.35 67.31) (xy 260.35 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de8bce3c-78cc-4aff-baa7-4b4970685a79")
 	)
 	(wire
 		(pts
@@ -8249,26 +7758,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 58.42) (xy 260.35 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e81074ae-e8ec-456b-b003-ae48325a9e23")
-	)
-	(wire
-		(pts
-			(xy 260.35 40.64) (xy 260.35 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8155579-e55f-4785-8c62-e4b672651a6a")
-	)
-	(wire
-		(pts
 			(xy 107.95 110.49) (xy 107.95 111.76)
 		)
 		(stroke
@@ -8289,26 +7778,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 74.93) (xy 50.8 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed71c890-f4aa-481a-bfaa-e2893e193683")
-	)
-	(wire
-		(pts
-			(xy 38.1 34.29) (xy 50.8 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eea87d4b-8d63-41b0-b8c3-bd4b5dba7507")
-	)
-	(wire
-		(pts
 			(xy 114.3 163.83) (xy 114.3 182.88)
 		)
 		(stroke
@@ -8316,16 +7785,6 @@
 			(type default)
 		)
 		(uuid "ef846e9b-145f-4709-b620-33a6de12c3b1")
-	)
-	(wire
-		(pts
-			(xy 58.42 158.75) (xy 64.77 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2576cd2-8cdc-400e-8a3c-23d05e011e20")
 	)
 	(wire
 		(pts
@@ -8339,16 +7798,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 85.09) (xy 260.35 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5bac61e-3478-4bc8-ac79-fe6487a090e1")
-	)
-	(wire
-		(pts
 			(xy 162.56 114.3) (xy 165.1 114.3)
 		)
 		(stroke
@@ -8356,16 +7805,6 @@
 			(type default)
 		)
 		(uuid "fcd01588-ab90-4060-9b41-d6bd47539246")
-	)
-	(wire
-		(pts
-			(xy 256.54 58.42) (xy 260.35 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd306eac-93ec-489b-974c-34497e3ec76a")
 	)
 	(wire
 		(pts
@@ -8396,6 +7835,16 @@
 			(type default)
 		)
 		(uuid "fe910056-10de-42c1-8a44-eac302d39e05")
+	)
+	(wire
+		(pts
+			(xy 105.41 118.11) (xy 115.57 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3956e3-fe3d-46c7-9bf3-c17a0f6f9d25")
 	)
 	(label "RESET"
 		(at 134.62 33.02 0)
@@ -9302,138 +8751,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 260.35 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14d9b060-aa58-48ff-9ba3-a8a3d3c202d0")
-		(property "Reference" "#PWR037"
-			(at 260.35 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 260.35 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "874b2ab7-ba95-44fd-b5e3-d2c8e259be6a")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 260.35 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1564eeee-2170-420f-8e04-d0a9308f11de")
-		(property "Reference" "#PWR035"
-			(at 260.35 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 260.35 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a8a558a-4adc-446a-b714-9dead3b21134")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "TSR_1-2433E_1")
 		(lib_id "Project_symbols:TSR_1-2433E")
 		(at 96.52 161.29 0)
@@ -9572,7 +8889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Littelfuse_111_Lateral_P18.80x5.00mm_D1.17mm_Horizontal"
+		(property "Footprint" "Project_footprints:Fuseholder_Clip-5x20mm_Littelfuse_111_Lateral_P18.80x5.00mm_D1.17mm_Horizontal"
 			(at 68.58 160.528 90)
 			(effects
 				(font
@@ -10585,72 +9902,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "384694c3-e30c-4579-bb21-f5cf9492e509")
-		(property "Reference" "#PWR026"
-			(at 38.1 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f3e727f-e365-4994-82b3-20dbd3e63465")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 50.8 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10775,232 +10026,6 @@
 			(project "StackLightDriver"
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 260.35 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f10c770-241a-4d67-b696-4cbeee25445e")
-		(property "Reference" "#PWR034"
-			(at 260.35 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 260.35 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44b54c51-49d6-4f3c-8599-a1488f612847")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:TVS-Bi,SMBJ3.3CA")
-		(at 260.35 81.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f40e657-7814-4394-929c-691455c6cbc9")
-		(property "Reference" "D?"
-			(at 256.54 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ3.3CA"
-			(at 256.54 82.55 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
-			(at 262.128 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312280935_hongjiacheng-SMBJ3-3CA_C19077557.pdf"
-			(at 260.35 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75A 600W 8V 6.5V Bidirectional 3.3V SMB ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 260.35 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19077557"
-			(at 260.35 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "47919"
-			(at 260.35 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.125USD"
-			(at 260.35 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 260.35 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 260.35 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 260.35 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 260.35 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
-			(at 260.35 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 260.35 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SMBJ3.3CA"
-			(at 260.35 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "05886094-de36-4a14-b955-24116b61a98e")
-		)
-		(pin "1"
-			(uuid "153956a0-4bdc-445e-86fd-ae881a367b9d")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -11223,71 +10248,6 @@
 			(project ""
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 38.1 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52a97b19-afa7-4b32-8514-cdf0076f8a92")
-		(property "Reference" "#PWR030"
-			(at 38.1 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a1ad79a-36a2-4a35-aa26-67835df4deb7")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11599,166 +10559,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:TVS-Bi,SMBJ3.3CA")
-		(at 260.35 45.72 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55cf47aa-ed3a-47a0-82df-be7178ace768")
-		(property "Reference" "D?"
-			(at 256.54 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ3.3CA"
-			(at 256.54 46.99 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
-			(at 262.128 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312280935_hongjiacheng-SMBJ3-3CA_C19077557.pdf"
-			(at 260.35 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75A 600W 8V 6.5V Bidirectional 3.3V SMB ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 260.35 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19077557"
-			(at 260.35 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "47919"
-			(at 260.35 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.125USD"
-			(at 260.35 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 260.35 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 260.35 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 260.35 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 260.35 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
-			(at 260.35 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 260.35 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SMBJ3.3CA"
-			(at 260.35 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "749d7952-8fc9-4869-bd8d-2a6ecff6bc63")
-		)
-		(pin "1"
-			(uuid "102e3a09-4bf0-412f-b7eb-a3ce9137e3e3")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 50.8 85.09 0)
 		(unit 1)
@@ -11818,231 +10618,6 @@
 			(project "StackLightDriver"
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 260.35 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f1687db-d3ec-47eb-b714-97fd69774db0")
-		(property "Reference" "#PWR036"
-			(at 260.35 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 260.35 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa9018fe-3038-4355-9f2a-a5471d82f0c2")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:TVS-Bi,SMBJ3.3CA")
-		(at 38.1 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f9ac29a-013c-4168-a468-cce7bab4a4e4")
-		(property "Reference" "D?"
-			(at 41.91 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ3.3CA"
-			(at 41.91 60.96 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
-			(at 36.322 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312280935_hongjiacheng-SMBJ3-3CA_C19077557.pdf"
-			(at 38.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75A 600W 8V 6.5V Bidirectional 3.3V SMB ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 38.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19077557"
-			(at 38.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "47919"
-			(at 38.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.125USD"
-			(at 38.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 38.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 38.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 38.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 38.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
-			(at 38.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 38.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SMBJ3.3CA"
-			(at 38.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "61ead894-a8b8-4298-ae5e-2112c55ddfb3")
-		)
-		(pin "1"
-			(uuid "ae35ec48-5e8c-451c-8704-98f1bd095fdc")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -12421,166 +10996,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:TVS-Bi,SMBJ3.3CA")
-		(at 260.35 99.06 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66b0460f-e9bc-450a-877d-6139af39a10e")
-		(property "Reference" "D?"
-			(at 256.54 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ3.3CA"
-			(at 256.54 100.33 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
-			(at 262.128 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312280935_hongjiacheng-SMBJ3-3CA_C19077557.pdf"
-			(at 260.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75A 600W 8V 6.5V Bidirectional 3.3V SMB ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 260.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19077557"
-			(at 260.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "47919"
-			(at 260.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.125USD"
-			(at 260.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 260.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 260.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 260.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 260.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
-			(at 260.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 260.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SMBJ3.3CA"
-			(at 260.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c89d0772-69e8-4288-bd1c-c665915d6fc9")
-		)
-		(pin "1"
-			(uuid "0430524c-5029-48dc-8fad-15dac1ac2e33")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 128.27 177.8 0)
 		(unit 1)
@@ -12656,7 +11071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67ff1408-aeee-48e3-9f8b-26b99a7e76ac")
-		(property "Reference" "D?"
+		(property "Reference" "D2"
 			(at 146.05 116.8399 0)
 			(effects
 				(font
@@ -12800,7 +11215,7 @@
 		(instances
 			(project "StackLightDriver"
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "D?")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -13132,7 +11547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7103e59b-8364-42c7-a8e0-520b93c2d728")
-		(property "Reference" "J?"
+		(property "Reference" "J12"
 			(at 90.17 83.82 0)
 			(effects
 				(font
@@ -13223,7 +11638,7 @@
 		(instances
 			(project ""
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "J?")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -13239,7 +11654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "720dc362-d810-47ba-855c-9f08730fccf3")
-		(property "Reference" "R?"
+		(property "Reference" "R29"
 			(at 118.11 126.9999 0)
 			(effects
 				(font
@@ -13446,7 +11861,7 @@
 		(instances
 			(project "StackLightDriver"
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "R?")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -14140,7 +12555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80d29f75-a303-4ca1-89c0-71aa381faaa2")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 130.81 116.8399 0)
 			(effects
 				(font
@@ -14284,7 +12699,7 @@
 		(instances
 			(project "StackLightDriver"
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -15246,165 +13661,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:TVS-Bi,SMBJ3.3CA")
-		(at 38.1 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8cd19564-1e7a-4e97-8042-547f43337d51")
-		(property "Reference" "D?"
-			(at 41.91 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ3.3CA"
-			(at 41.91 40.64 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
-			(at 36.322 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312280935_hongjiacheng-SMBJ3-3CA_C19077557.pdf"
-			(at 38.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75A 600W 8V 6.5V Bidirectional 3.3V SMB ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 38.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19077557"
-			(at 38.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "47919"
-			(at 38.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.125USD"
-			(at 38.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 38.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 38.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 38.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 38.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
-			(at 38.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 38.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SMBJ3.3CA"
-			(at 38.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f2e8867d-2b04-4404-a84e-a7f51863c9a3")
-		)
-		(pin "1"
-			(uuid "454d3ed6-329c-4bd7-8782-2b771f42c03d")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Manufacturing:Tooling Hole, PCM_JLCPCB, 1.152mm")
 		(at 16.51 151.13 0)
 		(unit 1)
@@ -15463,138 +13719,6 @@
 			(project "StackLightDriver"
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 38.1 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "965fe4e9-c328-4943-b792-9bbc1361ef29")
-		(property "Reference" "#PWR025"
-			(at 38.1 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d44b9553-6f19-401e-b779-7679995b1b5f")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 260.35 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a23d629-7538-4d29-87af-b22ddb23698f")
-		(property "Reference" "#PWR038"
-			(at 260.35 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 260.35 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fdcee90e-85de-4f72-9509-44a31ecf5ab4")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -16145,389 +14269,6 @@
 			(project "StackLightDriver"
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:TVS-Uni,SMDJ15CA")
-		(at 58.42 167.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a099c86c-01d0-4dd6-8296-9039a0065707")
-		(property "Reference" "D?"
-			(at 62.23 166.0524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMDJ15CA"
-			(at 62.23 168.5925 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SMC"
-			(at 60.198 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2501071555_hongjiacheng-SMDJ15CA_C42371725.pdf"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "15V 24.4V 18.5V 123A 2uA 3kW -55°C~+150°C SMC ESD and Surge Protection (TVS/ESD)"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C42371725"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "2434"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.188USD"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "2"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "0"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SMDJ15CA"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature" "-55°C~+150°C"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Peak Pulse Power Dissipation (Ppp)" "3kW"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Clamping Voltage" "24.4V"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Peak Pulse Current (Ipp)" "123A"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage - Breakdown" "18.5V"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reverse Stand-Off Voltage (Vrwm)" "15V"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reverse Leakage Current (Ir)" "2uA"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9a05b135-b3ec-4ca1-b171-354263ab474b")
-		)
-		(pin "1"
-			(uuid "ec4b8162-e784-4b36-bebd-d62193299023")
-		)
-		(instances
-			(project ""
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:TVS-Bi,SMBJ3.3CA")
-		(at 260.35 27.94 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a84437cb-ee83-4a4b-bba7-6e4b1b7eebab")
-		(property "Reference" "D?"
-			(at 256.54 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ3.3CA"
-			(at 256.54 29.21 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
-			(at 262.128 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312280935_hongjiacheng-SMBJ3-3CA_C19077557.pdf"
-			(at 260.35 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75A 600W 8V 6.5V Bidirectional 3.3V SMB ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 260.35 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19077557"
-			(at 260.35 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "47919"
-			(at 260.35 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.125USD"
-			(at 260.35 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 260.35 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 260.35 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 260.35 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 260.35 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
-			(at 260.35 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 260.35 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SMBJ3.3CA"
-			(at 260.35 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "39200eca-20af-4a89-a533-f9cabec0c28d")
-		)
-		(pin "1"
-			(uuid "c509a612-1431-4148-98ce-4f2c7fcc9699")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -17156,7 +14897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcd9642a-8424-4ccf-97b4-307abeb97945")
-		(property "Reference" "R?"
+		(property "Reference" "R28"
 			(at 110.49 126.9999 0)
 			(effects
 				(font
@@ -17363,7 +15104,7 @@
 		(instances
 			(project ""
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "R?")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -17430,71 +15171,6 @@
 			(project "StackLightDriver"
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 38.1 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7351940-67c0-4b1a-885a-ed58c20ef5a0")
-		(property "Reference" "#PWR028"
-			(at 38.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "569b6124-e2f5-4a22-b288-9acf651b1782")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -17605,165 +15281,6 @@
 			(project "StackLightDriver"
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:TVS-Bi,SMBJ3.3CA")
-		(at 38.1 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cdf2491d-5d81-453b-b98b-141fe1110e15")
-		(property "Reference" "D?"
-			(at 41.91 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ3.3CA"
-			(at 41.91 121.92 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
-			(at 36.322 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312280935_hongjiacheng-SMBJ3-3CA_C19077557.pdf"
-			(at 38.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75A 600W 8V 6.5V Bidirectional 3.3V SMB ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 38.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19077557"
-			(at 38.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "47919"
-			(at 38.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.125USD"
-			(at 38.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 38.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 38.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 38.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 38.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
-			(at 38.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 38.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SMBJ3.3CA"
-			(at 38.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a2d0d66c-1046-4731-a318-e8dec3472a4b")
-		)
-		(pin "1"
-			(uuid "463d4c52-3570-4c31-9834-eacaede42eb6")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -18051,165 +15568,6 @@
 			(project "StackLightDriver"
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:TVS-Bi,SMBJ3.3CA")
-		(at 38.1 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d05d15cb-2c37-4465-86bc-d656d5994034")
-		(property "Reference" "D?"
-			(at 41.91 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ3.3CA"
-			(at 41.91 81.28 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
-			(at 36.322 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312280935_hongjiacheng-SMBJ3-3CA_C19077557.pdf"
-			(at 38.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75A 600W 8V 6.5V Bidirectional 3.3V SMB ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 38.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19077557"
-			(at 38.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "47919"
-			(at 38.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.125USD"
-			(at 38.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 38.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 38.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 38.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 38.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
-			(at 38.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 38.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SMBJ3.3CA"
-			(at 38.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f70058e-eda1-483d-89f6-24791871652f")
-		)
-		(pin "1"
-			(uuid "c0fdc790-f2ba-4b23-9885-d9e0e2bf6570")
-		)
-		(instances
-			(project ""
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -18792,71 +16150,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 38.1 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0d47c3d-df24-4305-a0f8-4a59ac553736")
-		(property "Reference" "#PWR032"
-			(at 38.1 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df9f01d7-e340-44cd-8342-2a47042f20e9")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 119.38 172.72 0)
 		(unit 1)
@@ -19344,165 +16637,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:TVS-Bi,SMBJ3.3CA")
-		(at 38.1 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e779872b-dd63-4a3e-8d52-3c4e4c109a89")
-		(property "Reference" "D?"
-			(at 41.91 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ3.3CA"
-			(at 41.91 101.6 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
-			(at 36.322 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312280935_hongjiacheng-SMBJ3-3CA_C19077557.pdf"
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75A 600W 8V 6.5V Bidirectional 3.3V SMB ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19077557"
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "47919"
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.125USD"
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SMBJ3.3CA"
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "330d68af-6fc3-4539-bbc4-d209530a6b58")
-		)
-		(pin "1"
-			(uuid "8429c444-f816-4e82-b01d-43e089d83a35")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Project_symbols:282837-2")
 		(at 267.97 134.62 0)
 		(unit 1)
@@ -19629,72 +16763,6 @@
 			(project ""
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
 					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8e775d0-aeae-49ce-85f9-7ecf6edcf527")
-		(property "Reference" "#PWR024"
-			(at 58.42 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29d70146-39ae-4208-bf86-e4c6caef088e")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -20284,166 +17352,6 @@
 			(project ""
 				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
 					(reference "S2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:TVS-Bi,SMBJ3.3CA")
-		(at 260.35 63.5 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2005279-fdf6-4d1d-b5c6-1dcf4ac63d55")
-		(property "Reference" "D?"
-			(at 256.54 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ3.3CA"
-			(at 256.54 64.77 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
-			(at 262.128 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312280935_hongjiacheng-SMBJ3-3CA_C19077557.pdf"
-			(at 260.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75A 600W 8V 6.5V Bidirectional 3.3V SMB ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 260.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19077557"
-			(at 260.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "47919"
-			(at 260.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.125USD"
-			(at 260.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 260.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 260.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 260.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 260.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
-			(at 260.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 260.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SMBJ3.3CA"
-			(at 260.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f11bf3c8-97bd-4167-88e6-36796cd0b0cf")
-		)
-		(pin "1"
-			(uuid "bec44eb0-96a8-482d-93aa-5d9b692d3e5a")
-		)
-		(instances
-			(project "StackLightDriver"
-				(path "/d031313b-f769-488e-86bb-cea64c97ce3a"
-					(reference "D?")
 					(unit 1)
 				)
 			)
