@@ -402,4 +402,15 @@
 			(xyz -90 -0 -90)
 		)
 	)
+	(model "${KIPRJMOD}/3D Models/5x20fuse.step"
+		(offset
+			(xyz 9.5 -2.5 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )

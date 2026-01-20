@@ -151,4 +151,15 @@
 		(uuid "138943c8-3ee7-4a40-8f09-229ad98277a1")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D Models/ltv5314.step"
+		(offset
+			(xyz 0 0 1.06)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
 )
