@@ -835,7 +835,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Project_footprints:Adafruit_I2S_MAX98357A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2060,7 +2060,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project_footprints:Adafruit_I2S_MAX98357A"
 			(at 138.43 86.36 0)
 			(effects
 				(font

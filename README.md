@@ -13,3 +13,6 @@ Footprints and 3D models of most components are provided by [CDFER's JLCPCB comp
 * B2B-XH-A
 * ESP32-S3-WROOM-1-N4
 * PJ-102AH
+
+## 3D models provided by Adafruit:
+* MAX98357
