@@ -2924,15 +2924,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 22.225 0)
+			(at 0 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
-			(at 0 19.685 0)
+		(property "Value" "USB_C_Receptacle"
+			(at 0 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +2948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/uj20-c-h-g-smt-2a-p16-tr.pdf"
 			(at 3.81 0 0)
 			(effects
 				(font
@@ -2957,7 +2957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2986,8 +2986,8 @@
 		)
 		(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
 			(rectangle
-				(start -0.254 -17.78)
-				(end 0.254 -16.764)
+				(start -4.064 -19.304)
+				(end -3.556 -20.32)
 				(stroke
 					(width 0)
 					(type default)
@@ -2997,8 +2997,85 @@
 				)
 			)
 			(rectangle
-				(start 10.16 15.494)
-				(end 9.144 14.986)
+				(start -1.524 -19.304)
+				(end -1.016 -20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1.016 -19.304)
+				(end 1.524 -20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.556 -19.304)
+				(end 4.064 -20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 16.764)
+				(end 9.144 16.256)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 14.224)
+				(end 9.144 13.716)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 11.684)
+				(end 9.144 11.176)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 9.144)
+				(end 9.144 8.636)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 5.334)
+				(end 9.144 4.826)
 				(stroke
 					(width 0)
 					(type default)
@@ -3010,17 +3087,6 @@
 			(rectangle
 				(start 10.16 2.794)
 				(end 9.144 2.286)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 10.16 0.254)
-				(end 9.144 -0.254)
 				(stroke
 					(width 0)
 					(type default)
@@ -3052,8 +3118,19 @@
 				)
 			)
 			(rectangle
-				(start 10.16 -11.176)
-				(end 9.144 -11.684)
+				(start 10.16 -7.366)
+				(end 9.144 -7.874)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 -9.906)
+				(end 9.144 -10.414)
 				(stroke
 					(width 0)
 					(type default)
@@ -3073,11 +3150,22 @@
 					(type none)
 				)
 			)
+			(rectangle
+				(start 10.16 -16.256)
+				(end 9.144 -16.764)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
 			(rectangle
-				(start -10.16 17.78)
-				(end 10.16 -17.78)
+				(start -10.16 20.32)
+				(end 10.16 -20.32)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3277,7 +3365,7 @@
 		)
 		(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
 			(pin passive line
-				(at -7.62 -22.86 90)
+				(at -7.62 -25.4 90)
 				(length 5.08)
 				(name "SHIELD"
 					(effects
@@ -3295,7 +3383,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -22.86 90)
+				(at -3.81 -25.4 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -3313,28 +3401,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -22.86 90)
+				(at -1.27 -25.4 90)
 				(length 5.08)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -22.86 90)
-				(length 5.08)
-				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -3351,9 +3419,26 @@
 				)
 			)
 			(pin passive line
-				(at 0 -22.86 90)
+				(at 1.27 -25.4 90)
 				(length 5.08)
-				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 -25.4 90)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -3369,83 +3454,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 15.24 15.24 180)
-				(length 5.08)
-				(name "VBUS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 15.24 180)
-				(length 5.08)
-				(hide yes)
-				(name "VBUS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 15.24 180)
-				(length 5.08)
-				(hide yes)
-				(name "VBUS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 15.24 180)
-				(length 5.08)
-				(hide yes)
-				(name "VBUS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at 15.24 2.54 180)
+				(at 15.24 16.51 180)
 				(length 5.08)
 				(name "D-"
 					(effects
@@ -3463,7 +3473,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 0 180)
+				(at 15.24 13.97 180)
 				(length 5.08)
 				(name "D-"
 					(effects
@@ -3481,7 +3491,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -2.54 180)
+				(at 15.24 11.43 180)
 				(length 5.08)
 				(name "D+"
 					(effects
@@ -3499,7 +3509,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -5.08 180)
+				(at 15.24 8.89 180)
 				(length 5.08)
 				(name "D+"
 					(effects
@@ -3517,7 +3527,115 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -11.43 180)
+				(at 15.24 5.08 180)
+				(length 5.08)
+				(name "SBU1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 2.54 180)
+				(length 5.08)
+				(name "SBU2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -2.54 180)
+				(length 5.08)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -5.08 180)
+				(length 5.08)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -7.62 180)
+				(length 5.08)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -10.16 180)
+				(length 5.08)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -13.97 180)
 				(length 5.08)
 				(name "CC1"
 					(effects
@@ -3535,7 +3653,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -13.97 180)
+				(at 15.24 -16.51 180)
 				(length 5.08)
 				(name "CC2"
 					(effects
