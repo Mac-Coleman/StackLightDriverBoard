@@ -2939,7 +2939,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Project_footprints:USB_C_Receptacle_USB2.0_14P"
 			(at 3.81 0 0)
 			(effects
 				(font
@@ -2986,17 +2986,6 @@
 		)
 		(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
 			(rectangle
-				(start -4.064 -19.304)
-				(end -3.556 -20.32)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
 				(start -1.524 -19.304)
 				(end -1.016 -20.32)
 				(stroke
@@ -3010,17 +2999,6 @@
 			(rectangle
 				(start 1.016 -19.304)
 				(end 1.524 -20.32)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 3.556 -19.304)
-				(end 4.064 -20.32)
 				(stroke
 					(width 0)
 					(type default)
@@ -3096,17 +3074,6 @@
 				)
 			)
 			(rectangle
-				(start 10.16 -2.286)
-				(end 9.144 -2.794)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
 				(start 10.16 -4.826)
 				(end 9.144 -5.334)
 				(stroke
@@ -3120,17 +3087,6 @@
 			(rectangle
 				(start 10.16 -7.366)
 				(end 9.144 -7.874)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 10.16 -9.906)
-				(end 9.144 -10.414)
 				(stroke
 					(width 0)
 					(type default)
@@ -3383,8 +3339,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -25.4 90)
-				(length 5.08)
+				(at -1.27 -26.67 90)
+				(length 6.35)
 				(name "GND"
 					(effects
 						(font
@@ -3392,7 +3348,7 @@
 						)
 					)
 				)
-				(number "A1"
+				(number "A1B12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3401,8 +3357,8 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 -25.4 90)
-				(length 5.08)
+				(at 1.27 -26.67 90)
+				(length 6.35)
 				(name "GND"
 					(effects
 						(font
@@ -3410,43 +3366,7 @@
 						)
 					)
 				)
-				(number "B1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 1.27 -25.4 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 3.81 -25.4 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B12"
+				(number "B1A12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3563,24 +3483,6 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -2.54 180)
-				(length 5.08)
-				(name "VBUS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 15.24 -5.08 180)
 				(length 5.08)
 				(name "VBUS"
@@ -3590,7 +3492,7 @@
 						)
 					)
 				)
-				(number "B4"
+				(number "A4B9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3608,25 +3510,7 @@
 						)
 					)
 				)
-				(number "A9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -10.16 180)
-				(length 5.08)
-				(name "VBUS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B9"
+				(number "B4A9"
 					(effects
 						(font
 							(size 1.27 1.27)
