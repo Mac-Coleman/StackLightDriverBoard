@@ -196,4 +196,15 @@
 		(uuid "a9571cf8-5f6f-41f9-bd74-e4925b299135")
 	)
 	(embedded_fonts no)
+	(model "/home/mac/Downloads/Same_Sky_UJ20-C-H-G-SMT-P16-TR/Same_Sky_UJ20-C-H-G-SMT-P16-TR.step"
+		(offset
+			(xyz 0 1.2 1.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
